@@ -1,0 +1,1 @@
+cmd_/home/duy/Desktop/laptrinhdriver/lab5/bai2/Module.symvers := sed 's/\.ko$$/\.o/' /home/duy/Desktop/laptrinhdriver/lab5/bai2/modules.order | scripts/mod/modpost -m -a  -o /home/duy/Desktop/laptrinhdriver/lab5/bai2/Module.symvers -e -i Module.symvers   -T -
